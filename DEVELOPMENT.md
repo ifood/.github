@@ -4,7 +4,7 @@ When opening a new issue, always make sure to fill out the issue template. **Thi
 
 ### Bugs
 
-We use GitHub Issues for our public bugs. If you would like to report a problem, take a look around and see if someone already opened an issue about it. If you are certain this is a new, x`unreported bug, you can submit a bug report.
+We use GitHub Issues for our public bugs. If you would like to report a problem, take a look around and see if someone already opened an issue about it. If you are certain this is a new unreported bug, you can submit a bug report using our bug report template.
 
 - **One bug per issue:** Please report a single bug per issue. This make easier to assign and follow the correction.
 - **Provide reproduction steps:** List all the steps necessary to reproduce the issue. The person reading your bug report should be able to follow these steps to reproduce your issue with minimal effort.
@@ -14,6 +14,8 @@ If you're only fixing a bug, it's fine to submit a pull request right away but w
 ### Security Bugs
 
 To safely disclosure, all security issues must be sent by  the email security-oss@ifood.com.br. This is required to each report be acknowledged, analyzed and classified by the internal iFood security team, and treated and published in the best way. **Please, do not file public issues.**
+
+For more information, read our [security document](https://github.com/ifood/.github/blob/main/SECURITY.md).
 
 ### Feature requests
 
@@ -27,7 +29,7 @@ So, it`s required to follow some best practices that all pull requests, to help 
 
 1. **Keep your PR small.** Small pull requests (~300 lines of diff) are much easier to review and more likely to get merged. Make sure the PR does only one thing, otherwise please split it.
 2. **Use descriptive titles.** It is recommended to follow this [commit message style](#commit-messages).
-3. **Test your changes.** Describe your [**test plan**](#test-plan) in your pull request description.
+3. **Test your changes.** Describe your test plan in your pull request description.
 4. **CLA.** If you haven't already, [sign the CLA](https://github.com/ifood/.github/blob/main/CLA.md).
 5. **Related Issue.** All pull requests must have an issue associated, and specified in the message.
 
@@ -67,10 +69,9 @@ Refs #133
 
 To help the user conform with the pattern, the project should use commitzen and repository server and local hooks.
 
-
 ### Contributor License Agreement (CLA)
 
-In order to accept your pull request, we need you to submit a CLA. You only need to do this once, so if you've done this for another iFood open source project, you're good to go. iFood uses the [cla-bot project](https://colineberhardt.github.io/cla-bot/) to check the CLA assignment into all Pull Requests. To sign, the user must go to https://github.com/ifood/clabot-config project, and open a pull request adding your GitHub user inside the .clabot file.
+In order to accept your pull request, we need you to submit a CLA. You only need to do this once, so if you've done this for another iFood open source project, you're good to go. iFood uses the [cla-bot project](https://colineberhardt.github.io/cla-bot/) to check the CLA assignment into all Pull Requests. To sign, the user must go to https://github.com/ifood/clabot-config project, and commit a change adding your GitHub user inside the .clabot file.
 
 After you have signed the CLA, must add a new PR comment with `@cla-bot check` message, that will trigger the bot and update the PR status. There's no need to open a new PR.
 
