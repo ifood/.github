@@ -9,6 +9,13 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+
+        To help our team to identify and handle the issue in the best way possible, please:
+        - Check if it`s really an unreported bug;
+        - Describes only one bug per issue;
+        - List all the steps necessary to reproduce the issue. The person reading your bug report should be able to follow these steps to reproduce your issue with minimal effort;
+        - If it`s related a security bug, please follow the steps described in [SECURITY.md file](https://github.com/ifood/.github/blob/main/SECURITY.md).
+
   - type: textarea
     id: current-behavior
     attributes:
